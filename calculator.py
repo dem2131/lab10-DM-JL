@@ -1,9 +1,13 @@
+# https://github.com/dem2131/lab10-DM-JL.git
+# Partner 1: David Miller
+# Partner 2: Jacob Lindland
+
 import math
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
-One function per operation, in order.
+One function per operation, in order. lab10-DM-JL
 """
 def square_root(a):
     if a < 0:
@@ -15,7 +19,7 @@ def hypotenuse(a, b):
 # First example
 def add(a, b):
     return a + b
-def sub(a, b):
+def subtract(a, b):
     return a - b
 def mul(a, b):
     return a * b
@@ -23,7 +27,7 @@ def div(a, b):
     if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
     return b / a
-def log(a, b):
+def logarithm(a, b):
     if a <= 0 or b <= 0 or a == 1:
         raise ValueError("Invalid arguments")
     return math.log(b) / math.log(a)
