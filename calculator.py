@@ -5,6 +5,13 @@ calculator.py
 
 One function per operation, in order.
 """
+def square_root(a):
+    if a < 0:
+        raise ValueError
+    return math.sqrt(a)
+def hypotenuse(a, b):
+    return math.hypot(a, b)
+
 # First example
 def add(a, b):
     return a + b
