@@ -17,8 +17,11 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(10, 5), 5, "should return 505")
         self.assertEqual(subtract(40, 4), 36, "should return 36")
 
-    # ##########################
 
+        #more assertions as advised by Ahmed
+        self.assertEqual(subtract(13, 7), 6, "should return 6")
+        self.assertEqual(subtract(55, 27), 28, "should return 28")
+        self.assertEqual(subtract(44, 8), 36, "should return 36")
     ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(5, 3), 15)
@@ -39,7 +42,10 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(logarithm(5, 25), 2, "should equal 2")
         self.assertEqual(logarithm(10, 100), 2, "should equal 2")
         self.assertEqual(logarithm(2, 256), 8, "should equal 8")
-
+        #more assertions as advised by Ahmed
+        self.assertEqual(logarithm(3, 27), 3, "should equal 3")
+        self.assertEqual(logarithm(7, 49), 2, "should equal 2")
+        self.assertEqual(logarithm(6, 216), 3, "should equal 3")
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
             logarithm(0, 5)
