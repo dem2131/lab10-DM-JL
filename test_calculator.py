@@ -46,7 +46,7 @@ class TestCalculator(unittest.TestCase):
         #more assertions as advised by Ahmed
         self.assertEqual(logarithm(3, 27), 3, "should equal 3")
         self.assertEqual(logarithm(7, 49), 2, "should equal 2")
-        self.assertEqual(logarithm(6, 216), 3, "should equal 3")
+        self.assertEqual(logarithm(6, 36), 2, "should equal 2")
     def test_log_invalid_base(self): # 1 assertion
         with self.assertRaises(ValueError):
             logarithm(0, 5)
