@@ -17,7 +17,7 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(subtract(10, 5), 5, "should return 505")
         self.assertEqual(subtract(40, 4), 36, "should return 36")
 
-    git
+
         #more assertions as advised by Ahmed
         self.assertEqual(subtract(13, 7), 6, "should return 6")
         self.assertEqual(subtract(55, 27), 28, "should return 28")
