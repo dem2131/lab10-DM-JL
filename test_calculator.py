@@ -1,4 +1,4 @@
-# https://github.com/dem2131/lab10-DM-JL.git
+#https://github.com/dem2131/lab10-DM-JL.git
 # Partner 1: David Miller
 # Partner 2: Jacob Lindland
 
